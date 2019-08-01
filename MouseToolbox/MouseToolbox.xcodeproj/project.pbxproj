@@ -1,0 +1,849 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AD193F67D49BBDBD38F681D /* Pods_MouseToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD64807E0169A5D930A949BB /* Pods_MouseToolbox.framework */; };
+		BEB73C7622F2EBE80076162A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEB73C7522F2EBE80076162A /* Assets.xcassets */; };
+		BEB73C7922F2EBE80076162A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEB73C7722F2EBE80076162A /* LaunchScreen.storyboard */; };
+		BEB73C8422F2EBE80076162A /* MouseToolboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB73C8322F2EBE80076162A /* MouseToolboxTests.swift */; };
+		BEB73C8F22F2EBE80076162A /* MouseToolboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB73C8E22F2EBE80076162A /* MouseToolboxUITests.swift */; };
+		BEB73CCB22F2EDAE0076162A /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB73CB022F2EDAE0076162A /* Global.swift */; };
+		BEB73CCC22F2EDAE0076162A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB73CB122F2EDAE0076162A /* AppDelegate.swift */; };
+		BEB73CCD22F2EDAE0076162A /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB73CB422F2EDAE0076162A /* Date.swift */; };
+		BEB73CCE22F2EDAE0076162A /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB73CB522F2EDAE0076162A /* UIColor.swift */; };
+		BEB73CCF22F2EDAE0076162A /* UITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB73CB622F2EDAE0076162A /* UITableViewCell.swift */; };
+		BEB73CD022F2EDAE0076162A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB73CB822F2EDAE0076162A /* Constants.swift */; };
+		BEB73CD122F2EDAE0076162A /* LKDateFormater.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB73CB922F2EDAE0076162A /* LKDateFormater.swift */; };
+		BEB73CD222F2EDAE0076162A /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB73CBA22F2EDAE0076162A /* Style.swift */; };
+		BEB73CD322F2EDAE0076162A /* LKDispatchTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB73CBB22F2EDAE0076162A /* LKDispatchTimer.swift */; };
+		BEB73CD422F2EDAE0076162A /* LKHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB73CBF22F2EDAE0076162A /* LKHomeViewController.swift */; };
+		BEB73CD522F2EDAE0076162A /* LKHomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB73CC122F2EDAE0076162A /* LKHomeModel.swift */; };
+		BEB73CD622F2EDAE0076162A /* LKHomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB73CC322F2EDAE0076162A /* LKHomeCell.swift */; };
+		BEB73CD722F2EDAE0076162A /* LKTimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB73CC622F2EDAE0076162A /* LKTimerViewController.swift */; };
+		BEB73CD822F2EDAE0076162A /* LKTimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB73CC822F2EDAE0076162A /* LKTimerModel.swift */; };
+		BEB73CD922F2EDAE0076162A /* LKTimerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB73CCA22F2EDAE0076162A /* LKTimerCell.swift */; };
+		BEB73CE122F2EDB70076162A /* LKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB73CDC22F2EDB70076162A /* LKViewController.swift */; };
+		BEB73CE222F2EDB70076162A /* LKNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB73CDD22F2EDB70076162A /* LKNavigationController.swift */; };
+		BEB73CE322F2EDB70076162A /* LKTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB73CDF22F2EDB70076162A /* LKTableViewCell.swift */; };
+		BEB73CE422F2EDB70076162A /* LKTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB73CE022F2EDB70076162A /* LKTableView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEB73C8022F2EBE80076162A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEB73C6322F2EBE50076162A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEB73C6A22F2EBE50076162A;
+			remoteInfo = MouseToolbox;
+		};
+		BEB73C8B22F2EBE80076162A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEB73C6322F2EBE50076162A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEB73C6A22F2EBE50076162A;
+			remoteInfo = MouseToolbox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D73A8462E79C2EFB131AF81 /* Pods-MouseToolbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MouseToolbox.debug.xcconfig"; path = "Target Support Files/Pods-MouseToolbox/Pods-MouseToolbox.debug.xcconfig"; sourceTree = "<group>"; };
+		AD64807E0169A5D930A949BB /* Pods_MouseToolbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MouseToolbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEB73C6B22F2EBE50076162A /* MouseToolbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MouseToolbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEB73C7522F2EBE80076162A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEB73C7822F2EBE80076162A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEB73C7A22F2EBE80076162A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEB73C7F22F2EBE80076162A /* MouseToolboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MouseToolboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEB73C8322F2EBE80076162A /* MouseToolboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MouseToolboxTests.swift; sourceTree = "<group>"; };
+		BEB73C8522F2EBE80076162A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEB73C8A22F2EBE80076162A /* MouseToolboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MouseToolboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEB73C8E22F2EBE80076162A /* MouseToolboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MouseToolboxUITests.swift; sourceTree = "<group>"; };
+		BEB73C9022F2EBE80076162A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEB73CB022F2EDAE0076162A /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		BEB73CB122F2EDAE0076162A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEB73CB422F2EDAE0076162A /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		BEB73CB522F2EDAE0076162A /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		BEB73CB622F2EDAE0076162A /* UITableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewCell.swift; sourceTree = "<group>"; };
+		BEB73CB822F2EDAE0076162A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BEB73CB922F2EDAE0076162A /* LKDateFormater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKDateFormater.swift; sourceTree = "<group>"; };
+		BEB73CBA22F2EDAE0076162A /* Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		BEB73CBB22F2EDAE0076162A /* LKDispatchTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKDispatchTimer.swift; sourceTree = "<group>"; };
+		BEB73CBF22F2EDAE0076162A /* LKHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKHomeViewController.swift; sourceTree = "<group>"; };
+		BEB73CC122F2EDAE0076162A /* LKHomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKHomeModel.swift; sourceTree = "<group>"; };
+		BEB73CC322F2EDAE0076162A /* LKHomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKHomeCell.swift; sourceTree = "<group>"; };
+		BEB73CC622F2EDAE0076162A /* LKTimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKTimerViewController.swift; sourceTree = "<group>"; };
+		BEB73CC822F2EDAE0076162A /* LKTimerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKTimerModel.swift; sourceTree = "<group>"; };
+		BEB73CCA22F2EDAE0076162A /* LKTimerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKTimerCell.swift; sourceTree = "<group>"; };
+		BEB73CDC22F2EDB70076162A /* LKViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKViewController.swift; sourceTree = "<group>"; };
+		BEB73CDD22F2EDB70076162A /* LKNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKNavigationController.swift; sourceTree = "<group>"; };
+		BEB73CDF22F2EDB70076162A /* LKTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKTableViewCell.swift; sourceTree = "<group>"; };
+		BEB73CE022F2EDB70076162A /* LKTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKTableView.swift; sourceTree = "<group>"; };
+		D355904DDD5766E9BF77B33A /* Pods-MouseToolbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MouseToolbox.release.xcconfig"; path = "Target Support Files/Pods-MouseToolbox/Pods-MouseToolbox.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEB73C6822F2EBE50076162A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AD193F67D49BBDBD38F681D /* Pods_MouseToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEB73C7C22F2EBE80076162A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEB73C8722F2EBE80076162A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1784D69D07C981ACC25486B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D73A8462E79C2EFB131AF81 /* Pods-MouseToolbox.debug.xcconfig */,
+				D355904DDD5766E9BF77B33A /* Pods-MouseToolbox.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2375FF5C21B6A351EABFE51A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD64807E0169A5D930A949BB /* Pods_MouseToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEB73C6222F2EBE50076162A = {
+			isa = PBXGroup;
+			children = (
+				BEB73C6D22F2EBE50076162A /* MouseToolbox */,
+				BEB73C8222F2EBE80076162A /* MouseToolboxTests */,
+				BEB73C8D22F2EBE80076162A /* MouseToolboxUITests */,
+				BEB73C6C22F2EBE50076162A /* Products */,
+				1784D69D07C981ACC25486B5 /* Pods */,
+				2375FF5C21B6A351EABFE51A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BEB73C6C22F2EBE50076162A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEB73C6B22F2EBE50076162A /* MouseToolbox.app */,
+				BEB73C7F22F2EBE80076162A /* MouseToolboxTests.xctest */,
+				BEB73C8A22F2EBE80076162A /* MouseToolboxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEB73C6D22F2EBE50076162A /* MouseToolbox */ = {
+			isa = PBXGroup;
+			children = (
+				BEB73CDA22F2EDB70076162A /* Base */,
+				BEB73CBC22F2EDAE0076162A /* Modules */,
+				BEB73CAF22F2EDAE0076162A /* Project */,
+				BEB73CB222F2EDAE0076162A /* Utils */,
+				BEB73C7522F2EBE80076162A /* Assets.xcassets */,
+				BEB73C7722F2EBE80076162A /* LaunchScreen.storyboard */,
+				BEB73C7A22F2EBE80076162A /* Info.plist */,
+			);
+			path = MouseToolbox;
+			sourceTree = "<group>";
+		};
+		BEB73C8222F2EBE80076162A /* MouseToolboxTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEB73C8322F2EBE80076162A /* MouseToolboxTests.swift */,
+				BEB73C8522F2EBE80076162A /* Info.plist */,
+			);
+			path = MouseToolboxTests;
+			sourceTree = "<group>";
+		};
+		BEB73C8D22F2EBE80076162A /* MouseToolboxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BEB73C8E22F2EBE80076162A /* MouseToolboxUITests.swift */,
+				BEB73C9022F2EBE80076162A /* Info.plist */,
+			);
+			path = MouseToolboxUITests;
+			sourceTree = "<group>";
+		};
+		BEB73CAF22F2EDAE0076162A /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				BEB73CB022F2EDAE0076162A /* Global.swift */,
+				BEB73CB122F2EDAE0076162A /* AppDelegate.swift */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+		BEB73CB222F2EDAE0076162A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BEB73CB322F2EDAE0076162A /* Extension */,
+				BEB73CB722F2EDAE0076162A /* Common */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BEB73CB322F2EDAE0076162A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BEB73CB422F2EDAE0076162A /* Date.swift */,
+				BEB73CB522F2EDAE0076162A /* UIColor.swift */,
+				BEB73CB622F2EDAE0076162A /* UITableViewCell.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		BEB73CB722F2EDAE0076162A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				BEB73CB822F2EDAE0076162A /* Constants.swift */,
+				BEB73CB922F2EDAE0076162A /* LKDateFormater.swift */,
+				BEB73CBA22F2EDAE0076162A /* Style.swift */,
+				BEB73CBB22F2EDAE0076162A /* LKDispatchTimer.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		BEB73CBC22F2EDAE0076162A /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				BEB73CBD22F2EDAE0076162A /* Home */,
+				BEB73CC422F2EDAE0076162A /* Timer */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		BEB73CBD22F2EDAE0076162A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BEB73CBE22F2EDAE0076162A /* Controller */,
+				BEB73CC022F2EDAE0076162A /* Model */,
+				BEB73CC222F2EDAE0076162A /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BEB73CBE22F2EDAE0076162A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BEB73CBF22F2EDAE0076162A /* LKHomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BEB73CC022F2EDAE0076162A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BEB73CC122F2EDAE0076162A /* LKHomeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BEB73CC222F2EDAE0076162A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BEB73CC322F2EDAE0076162A /* LKHomeCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BEB73CC422F2EDAE0076162A /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				BEB73CC522F2EDAE0076162A /* Controller */,
+				BEB73CC722F2EDAE0076162A /* Model */,
+				BEB73CC922F2EDAE0076162A /* View */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		BEB73CC522F2EDAE0076162A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BEB73CC622F2EDAE0076162A /* LKTimerViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BEB73CC722F2EDAE0076162A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BEB73CC822F2EDAE0076162A /* LKTimerModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BEB73CC922F2EDAE0076162A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BEB73CCA22F2EDAE0076162A /* LKTimerCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BEB73CDA22F2EDB70076162A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				BEB73CDB22F2EDB70076162A /* Controllers */,
+				BEB73CDE22F2EDB70076162A /* Views */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		BEB73CDB22F2EDB70076162A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BEB73CDC22F2EDB70076162A /* LKViewController.swift */,
+				BEB73CDD22F2EDB70076162A /* LKNavigationController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BEB73CDE22F2EDB70076162A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BEB73CDF22F2EDB70076162A /* LKTableViewCell.swift */,
+				BEB73CE022F2EDB70076162A /* LKTableView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEB73C6A22F2EBE50076162A /* MouseToolbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEB73C9322F2EBE80076162A /* Build configuration list for PBXNativeTarget "MouseToolbox" */;
+			buildPhases = (
+				CCDA0C78D573DFE64049C3C8 /* [CP] Check Pods Manifest.lock */,
+				BEB73C6722F2EBE50076162A /* Sources */,
+				BEB73C6822F2EBE50076162A /* Frameworks */,
+				BEB73C6922F2EBE50076162A /* Resources */,
+				1F9D12588EB1E63942A8B020 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MouseToolbox;
+			productName = MouseToolbox;
+			productReference = BEB73C6B22F2EBE50076162A /* MouseToolbox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEB73C7E22F2EBE80076162A /* MouseToolboxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEB73C9622F2EBE80076162A /* Build configuration list for PBXNativeTarget "MouseToolboxTests" */;
+			buildPhases = (
+				BEB73C7B22F2EBE80076162A /* Sources */,
+				BEB73C7C22F2EBE80076162A /* Frameworks */,
+				BEB73C7D22F2EBE80076162A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEB73C8122F2EBE80076162A /* PBXTargetDependency */,
+			);
+			name = MouseToolboxTests;
+			productName = MouseToolboxTests;
+			productReference = BEB73C7F22F2EBE80076162A /* MouseToolboxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BEB73C8922F2EBE80076162A /* MouseToolboxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEB73C9922F2EBE80076162A /* Build configuration list for PBXNativeTarget "MouseToolboxUITests" */;
+			buildPhases = (
+				BEB73C8622F2EBE80076162A /* Sources */,
+				BEB73C8722F2EBE80076162A /* Frameworks */,
+				BEB73C8822F2EBE80076162A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEB73C8C22F2EBE80076162A /* PBXTargetDependency */,
+			);
+			name = MouseToolboxUITests;
+			productName = MouseToolboxUITests;
+			productReference = BEB73C8A22F2EBE80076162A /* MouseToolboxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEB73C6322F2EBE50076162A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = leikai;
+				TargetAttributes = {
+					BEB73C6A22F2EBE50076162A = {
+						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
+					};
+					BEB73C7E22F2EBE80076162A = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = BEB73C6A22F2EBE50076162A;
+					};
+					BEB73C8922F2EBE80076162A = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = BEB73C6A22F2EBE50076162A;
+					};
+				};
+			};
+			buildConfigurationList = BEB73C6622F2EBE50076162A /* Build configuration list for PBXProject "MouseToolbox" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEB73C6222F2EBE50076162A;
+			productRefGroup = BEB73C6C22F2EBE50076162A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEB73C6A22F2EBE50076162A /* MouseToolbox */,
+				BEB73C7E22F2EBE80076162A /* MouseToolboxTests */,
+				BEB73C8922F2EBE80076162A /* MouseToolboxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEB73C6922F2EBE50076162A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEB73C7922F2EBE80076162A /* LaunchScreen.storyboard in Resources */,
+				BEB73C7622F2EBE80076162A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEB73C7D22F2EBE80076162A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEB73C8822F2EBE80076162A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F9D12588EB1E63942A8B020 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MouseToolbox/Pods-MouseToolbox-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MouseToolbox/Pods-MouseToolbox-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MouseToolbox/Pods-MouseToolbox-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCDA0C78D573DFE64049C3C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MouseToolbox-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEB73C6722F2EBE50076162A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEB73CCF22F2EDAE0076162A /* UITableViewCell.swift in Sources */,
+				BEB73CCC22F2EDAE0076162A /* AppDelegate.swift in Sources */,
+				BEB73CCE22F2EDAE0076162A /* UIColor.swift in Sources */,
+				BEB73CCD22F2EDAE0076162A /* Date.swift in Sources */,
+				BEB73CD322F2EDAE0076162A /* LKDispatchTimer.swift in Sources */,
+				BEB73CD922F2EDAE0076162A /* LKTimerCell.swift in Sources */,
+				BEB73CD722F2EDAE0076162A /* LKTimerViewController.swift in Sources */,
+				BEB73CE122F2EDB70076162A /* LKViewController.swift in Sources */,
+				BEB73CD822F2EDAE0076162A /* LKTimerModel.swift in Sources */,
+				BEB73CE422F2EDB70076162A /* LKTableView.swift in Sources */,
+				BEB73CD522F2EDAE0076162A /* LKHomeModel.swift in Sources */,
+				BEB73CE222F2EDB70076162A /* LKNavigationController.swift in Sources */,
+				BEB73CCB22F2EDAE0076162A /* Global.swift in Sources */,
+				BEB73CD622F2EDAE0076162A /* LKHomeCell.swift in Sources */,
+				BEB73CD422F2EDAE0076162A /* LKHomeViewController.swift in Sources */,
+				BEB73CE322F2EDB70076162A /* LKTableViewCell.swift in Sources */,
+				BEB73CD022F2EDAE0076162A /* Constants.swift in Sources */,
+				BEB73CD122F2EDAE0076162A /* LKDateFormater.swift in Sources */,
+				BEB73CD222F2EDAE0076162A /* Style.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEB73C7B22F2EBE80076162A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEB73C8422F2EBE80076162A /* MouseToolboxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEB73C8622F2EBE80076162A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEB73C8F22F2EBE80076162A /* MouseToolboxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEB73C8122F2EBE80076162A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEB73C6A22F2EBE50076162A /* MouseToolbox */;
+			targetProxy = BEB73C8022F2EBE80076162A /* PBXContainerItemProxy */;
+		};
+		BEB73C8C22F2EBE80076162A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEB73C6A22F2EBE50076162A /* MouseToolbox */;
+			targetProxy = BEB73C8B22F2EBE80076162A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEB73C7722F2EBE80076162A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEB73C7822F2EBE80076162A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEB73C9122F2EBE80076162A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BEB73C9222F2EBE80076162A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEB73C9422F2EBE80076162A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D73A8462E79C2EFB131AF81 /* Pods-MouseToolbox.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DJCY6W63DQ;
+				INFOPLIST_FILE = MouseToolbox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dengmengyan.MouseToolbox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEB73C9522F2EBE80076162A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D355904DDD5766E9BF77B33A /* Pods-MouseToolbox.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DJCY6W63DQ;
+				INFOPLIST_FILE = MouseToolbox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dengmengyan.MouseToolbox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BEB73C9722F2EBE80076162A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DJCY6W63DQ;
+				INFOPLIST_FILE = MouseToolboxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dengmengyan.MouseToolboxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MouseToolbox.app/MouseToolbox";
+			};
+			name = Debug;
+		};
+		BEB73C9822F2EBE80076162A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DJCY6W63DQ;
+				INFOPLIST_FILE = MouseToolboxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dengmengyan.MouseToolboxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MouseToolbox.app/MouseToolbox";
+			};
+			name = Release;
+		};
+		BEB73C9A22F2EBE80076162A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DJCY6W63DQ;
+				INFOPLIST_FILE = MouseToolboxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dengmengyan.MouseToolboxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MouseToolbox;
+			};
+			name = Debug;
+		};
+		BEB73C9B22F2EBE80076162A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DJCY6W63DQ;
+				INFOPLIST_FILE = MouseToolboxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dengmengyan.MouseToolboxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MouseToolbox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEB73C6622F2EBE50076162A /* Build configuration list for PBXProject "MouseToolbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEB73C9122F2EBE80076162A /* Debug */,
+				BEB73C9222F2EBE80076162A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEB73C9322F2EBE80076162A /* Build configuration list for PBXNativeTarget "MouseToolbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEB73C9422F2EBE80076162A /* Debug */,
+				BEB73C9522F2EBE80076162A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEB73C9622F2EBE80076162A /* Build configuration list for PBXNativeTarget "MouseToolboxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEB73C9722F2EBE80076162A /* Debug */,
+				BEB73C9822F2EBE80076162A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEB73C9922F2EBE80076162A /* Build configuration list for PBXNativeTarget "MouseToolboxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEB73C9A22F2EBE80076162A /* Debug */,
+				BEB73C9B22F2EBE80076162A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEB73C6322F2EBE50076162A /* Project object */;
+}
